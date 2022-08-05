@@ -34,6 +34,6 @@ describe("DELETE /:id", function () {
       .set("Accept", "application/json");
 
     expect(response.status).toEqual(200);
-    expect(response.body[0].id).toEqual(2);
+    expect(response.body[0].id).toEqual(3);
   });
 });
